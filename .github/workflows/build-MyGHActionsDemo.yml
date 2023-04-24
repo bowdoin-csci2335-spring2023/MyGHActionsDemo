@@ -11,7 +11,6 @@ on:
       - development
 
 
-name: Java CI
 
 on: [push]
 
@@ -29,7 +28,7 @@ jobs:
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots package
 
-jobs:
+
   Demo-GH-Actions:
     runs-on: self-hosted
     steps:
